@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 //const users = [{name:'raj'},{name:'tejas'},{name:'raj'},{name:'tejas'},{name:'raj'},{name:'tejas'}]
 export default function Users() {
@@ -27,7 +28,7 @@ export default function Users() {
                     <div className="card-body">
                       <h5 className="card-title">{user.login}</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <Link  className="btn btn-primary">Go somewhere</Link>
                     </div>
                   </div>
                   </div>
